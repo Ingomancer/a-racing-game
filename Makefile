@@ -21,7 +21,7 @@ requirements: $(VENV_DIR) requirements.txt
 
 .PHONY: format
 format:
-	$(VENV_BIN)/black *.py
+	$(VENV_BIN)/black .
 
 .PHONY: run
 run:

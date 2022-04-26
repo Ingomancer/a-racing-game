@@ -1,3 +1,4 @@
+from ast import Load
 import pygame
 from data.car import Car
 
@@ -5,6 +6,7 @@ from data.graphics.graphics import load
 
 wasd_controls = (pygame.K_w, pygame.K_s, pygame.K_d, pygame.K_a)
 arrow_controls = (pygame.K_UP, pygame.K_DOWN, pygame.K_RIGHT, pygame.K_LEFT)
+
 
 def main():
     screen = pygame.display.set_mode((640, 480))
